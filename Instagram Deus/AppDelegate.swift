@@ -7,19 +7,40 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var storyboard = UIStoryboard(name: "Main", bundle: nil)
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+       
+        
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Instagram"
+                configuration.clientKey = "efg92gqf2gfdfig8gf78654fvijh"
+                configuration.server = "https://safe-castle-35510.herokuapp.com/parse"
+                
+            })
+        )
+        
+        // check if user is logged in.
+        if PFUser.currentUser() != nil {
+            var vc = storyboard.instantiateViewControllerWithIdentifier("navigation") as! UINavigationController
+            window?.rootViewController = vc
+        }
+        
+            
+        
         return true
     }
-
-    func applicationWillResignActive(application: UIApplication) {
+       func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
