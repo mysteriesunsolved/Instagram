@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7FE39391C84163D0021AFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE39381C84163D0021AFA7 /* AppDelegate.swift */; };
+		A7FE393B1C84163D0021AFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE393A1C84163D0021AFA7 /* ViewController.swift */; };
+		A7FE393E1C84163D0021AFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE393C1C84163D0021AFA7 /* Main.storyboard */; };
+		A7FE39401C84163D0021AFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FE393F1C84163D0021AFA7 /* Assets.xcassets */; };
+		A7FE39431C84163D0021AFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE39411C84163D0021AFA7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7FE39351C84163D0021AFA7 /* Instagram Deus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Deus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FE39381C84163D0021AFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7FE393A1C84163D0021AFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7FE393D1C84163D0021AFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FE393F1C84163D0021AFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FE39421C84163D0021AFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7FE39441C84163D0021AFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FE39321C84163D0021AFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FE392C1C84163D0021AFA7 = {
+			isa = PBXGroup;
+			children = (
+				A7FE39371C84163D0021AFA7 /* Instagram Deus */,
+				A7FE39361C84163D0021AFA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FE39361C84163D0021AFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE39351C84163D0021AFA7 /* Instagram Deus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FE39371C84163D0021AFA7 /* Instagram Deus */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE39381C84163D0021AFA7 /* AppDelegate.swift */,
+				A7FE393A1C84163D0021AFA7 /* ViewController.swift */,
+				A7FE393C1C84163D0021AFA7 /* Main.storyboard */,
+				A7FE393F1C84163D0021AFA7 /* Assets.xcassets */,
+				A7FE39411C84163D0021AFA7 /* LaunchScreen.storyboard */,
+				A7FE39441C84163D0021AFA7 /* Info.plist */,
+			);
+			path = "Instagram Deus";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FE39341C84163D0021AFA7 /* Instagram Deus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE39471C84163D0021AFA7 /* Build configuration list for PBXNativeTarget "Instagram Deus" */;
+			buildPhases = (
+				A7FE39311C84163D0021AFA7 /* Sources */,
+				A7FE39321C84163D0021AFA7 /* Frameworks */,
+				A7FE39331C84163D0021AFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instagram Deus";
+			productName = "Instagram Deus";
+			productReference = A7FE39351C84163D0021AFA7 /* Instagram Deus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FE392D1C84163D0021AFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sanaya Sanghvi";
+				TargetAttributes = {
+					A7FE39341C84163D0021AFA7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A7FE39301C84163D0021AFA7 /* Build configuration list for PBXProject "Instagram Deus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7FE392C1C84163D0021AFA7;
+			productRefGroup = A7FE39361C84163D0021AFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FE39341C84163D0021AFA7 /* Instagram Deus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FE39331C84163D0021AFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE39431C84163D0021AFA7 /* LaunchScreen.storyboard in Resources */,
+				A7FE39401C84163D0021AFA7 /* Assets.xcassets in Resources */,
+				A7FE393E1C84163D0021AFA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FE39311C84163D0021AFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE393B1C84163D0021AFA7 /* ViewController.swift in Sources */,
+				A7FE39391C84163D0021AFA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7FE393C1C84163D0021AFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE393D1C84163D0021AFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FE39411C84163D0021AFA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE39421C84163D0021AFA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FE39451C84163D0021AFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7FE39461C84163D0021AFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FE39481C84163D0021AFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Instagram Deus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Instagram-Deus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7FE39491C84163D0021AFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Instagram Deus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codepath.Instagram-Deus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FE39301C84163D0021AFA7 /* Build configuration list for PBXProject "Instagram Deus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE39451C84163D0021AFA7 /* Debug */,
+				A7FE39461C84163D0021AFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FE39471C84163D0021AFA7 /* Build configuration list for PBXNativeTarget "Instagram Deus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE39481C84163D0021AFA7 /* Debug */,
+				A7FE39491C84163D0021AFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FE392D1C84163D0021AFA7 /* Project object */;
+}
