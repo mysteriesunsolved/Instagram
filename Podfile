@@ -6,6 +6,7 @@
 target 'Instagram Deus' do
 
 pod 'Parse'
+pod 'ParseUI'
 
 end
 

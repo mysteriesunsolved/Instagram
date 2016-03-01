@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // check if user is logged in.
         if PFUser.currentUser() != nil {
-            var vc = storyboard.instantiateViewControllerWithIdentifier("navigation") as! UINavigationController
+            var vc = storyboard.instantiateViewControllerWithIdentifier("navigation") as! UIViewController
             window?.rootViewController = vc
         }
         

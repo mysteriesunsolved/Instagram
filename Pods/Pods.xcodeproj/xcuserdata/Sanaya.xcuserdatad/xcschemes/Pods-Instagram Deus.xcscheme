@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D1F22BD49A373E6CE6703191'
+               BlueprintIdentifier = 'CDA110C835DAEDD4C127265A'
                BlueprintName = 'Pods-Instagram Deus'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Instagram_Deus.framework'>

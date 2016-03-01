@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Instagram Deus/Bolts.framework"
   install_framework "Pods-Instagram Deus/Parse.framework"
+  install_framework "Pods-Instagram Deus/ParseUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Instagram Deus/Bolts.framework"
   install_framework "Pods-Instagram Deus/Parse.framework"
+  install_framework "Pods-Instagram Deus/ParseUI.framework"
 fi

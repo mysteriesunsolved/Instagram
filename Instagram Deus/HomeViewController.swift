@@ -15,7 +15,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet var tableView: UITableView!
     
     var instagrams = [PFObject]?()
-    
+  
+    var refreshControl = UIRefreshControl()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +24,30 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.dataSource = self
         tableView.delegate = self
      
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 300
+        
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
+        self.refreshControl.tintColor = UIColor .blueColor()
+        tableView.addSubview(refreshControl)
+     
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        UserMedia.fetchData(nil, completion: {(instagrams, error) -> () in
+            print("I'm here")
+            self.instagrams = instagrams
+            self.tableView.reloadData()
+            print(instagrams)
+        })
+        self.tableView.reloadData()
+        print("check3")
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -63,6 +85,39 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return cell
         
     }
+    
+    func delay(delay:Double, closure:()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            
+            dispatch_get_main_queue(), closure)
+    }
+    
+    func onRefresh() {
+        delay(2, closure: {
+            self.refreshControl.endRefreshing()
+        })
+        UserMedia.fetchData(nil, completion: {(instagrams, error) -> () in
+            
+            self.instagrams = instagrams
+            
+            self.tableView.reloadData()
+        })
+
+       }
+    
+   
+    
+    @IBAction func toCamera(sender: AnyObject) {
+        
+        performSegueWithIdentifier("toCamera", sender: self)
+    }
+    
+  
+    
     /*
     // MARK: - Navigation
 

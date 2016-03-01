@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76AF5BE49AB8A247F60EAC1E /* Pods_Instagram_Deus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB35CB76D24BF381DFCA7DA /* Pods_Instagram_Deus.framework */; };
+		A79427511C852FE9009378C4 /* UserMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79427501C852FE9009378C4 /* UserMedia.swift */; };
 		A7FE39391C84163D0021AFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE39381C84163D0021AFA7 /* AppDelegate.swift */; };
 		A7FE393B1C84163D0021AFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE393A1C84163D0021AFA7 /* ViewController.swift */; };
 		A7FE393E1C84163D0021AFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE393C1C84163D0021AFA7 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		072C55E8F6C87E66662A8679 /* Pods-Instagram Deus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Deus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Deus/Pods-Instagram Deus.debug.xcconfig"; sourceTree = "<group>"; };
 		943489130F3D8AE344817BAF /* Pods-Instagram Deus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Deus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram Deus/Pods-Instagram Deus.release.xcconfig"; sourceTree = "<group>"; };
+		A79427501C852FE9009378C4 /* UserMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMedia.swift; sourceTree = "<group>"; };
 		A7FE39351C84163D0021AFA7 /* Instagram Deus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Deus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FE39381C84163D0021AFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FE393A1C84163D0021AFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				A7FE394C1C8423DC0021AFA7 /* HomeViewController.swift */,
 				A7FE39501C84360E0021AFA7 /* PhotoCell.swift */,
 				A7FE39521C843A410021AFA7 /* CreatePhotoViewController.swift */,
+				A79427501C852FE9009378C4 /* UserMedia.swift */,
 			);
 			path = "Instagram Deus";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				A7FE393B1C84163D0021AFA7 /* ViewController.swift in Sources */,
 				A7FE39391C84163D0021AFA7 /* AppDelegate.swift in Sources */,
 				A7FE394D1C8423DC0021AFA7 /* HomeViewController.swift in Sources */,
+				A79427511C852FE9009378C4 /* UserMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
